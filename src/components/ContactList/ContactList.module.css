@@ -1,0 +1,19 @@
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+.contactList button {
+  margin-left: 5px;
+  border: transparent;
+  padding: 5px;
+  border-radius: 6px;
+}
+.contactList button:hover,
+.contactList button:focus {
+  color: #fff;
+  background-color: blue;
+  cursor: pointer;
+}
